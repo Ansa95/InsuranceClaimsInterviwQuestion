@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceClaims.Presentation.Api", "InsuranceClaims.Presentation.Api\InsuranceClaims.Presentation.Api.csproj", "{B8F3CC9B-06E2-4A9C-A7B4-101C7EAE9F2F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{172B3F53-B68F-4027-A7DF-E24E078FEFAA} = {172B3F53-B68F-4027-A7DF-E24E078FEFAA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceClaims.Domain", "InsuranceClaims.Domain\InsuranceClaims.Domain.csproj", "{6944C91E-BACF-4C1D-89E9-0CDFEC0D0C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceClaims.Application", "InsuranceClaims.Application\InsuranceClaims.Application.csproj", "{172B3F53-B68F-4027-A7DF-E24E078FEFAA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6944C91E-BACF-4C1D-89E9-0CDFEC0D0C21} = {6944C91E-BACF-4C1D-89E9-0CDFEC0D0C21}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceClaims.Infrastructure", "InsuranceClaims.Infrastructure\InsuranceClaims.Infrastructure.csproj", "{F96BC7FF-78FA-4FE6-BAD7-02E591071DEC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{172B3F53-B68F-4027-A7DF-E24E078FEFAA} = {172B3F53-B68F-4027-A7DF-E24E078FEFAA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8F3CC9B-06E2-4A9C-A7B4-101C7EAE9F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F3CC9B-06E2-4A9C-A7B4-101C7EAE9F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F3CC9B-06E2-4A9C-A7B4-101C7EAE9F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F3CC9B-06E2-4A9C-A7B4-101C7EAE9F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6944C91E-BACF-4C1D-89E9-0CDFEC0D0C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6944C91E-BACF-4C1D-89E9-0CDFEC0D0C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6944C91E-BACF-4C1D-89E9-0CDFEC0D0C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6944C91E-BACF-4C1D-89E9-0CDFEC0D0C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172B3F53-B68F-4027-A7DF-E24E078FEFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172B3F53-B68F-4027-A7DF-E24E078FEFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172B3F53-B68F-4027-A7DF-E24E078FEFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172B3F53-B68F-4027-A7DF-E24E078FEFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96BC7FF-78FA-4FE6-BAD7-02E591071DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96BC7FF-78FA-4FE6-BAD7-02E591071DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96BC7FF-78FA-4FE6-BAD7-02E591071DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96BC7FF-78FA-4FE6-BAD7-02E591071DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {135E28DF-288E-40EC-A4BF-B82C7B2E9188}
+	EndGlobalSection
+EndGlobal
